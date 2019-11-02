@@ -1,0 +1,30 @@
+* {
+  font-family: "Montserrat", "Arial"
+}
+
+.logo {
+  margin-left: 25px;
+  max-width: 120px;
+}
+
+.navbar-andy {
+  position: fixed;
+  top: 0;
+  margin-top: 25px;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-list-links a{
+  margin-right: 25px;
+}
+
+#section-home {
+  margin-top: 120px;
+}
+
+.home-content h2 {
+  font-size: 50px;
+  font-weight: 900;
+}

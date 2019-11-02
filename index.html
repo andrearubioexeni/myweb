@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/822fd77920.js" crossorigin="anonymous"></script>
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800,900&display=swap" rel="stylesheet"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.ico"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <script type="text/javascript" src="./assets/js/jquery/jquery.js"></script>
+    <script type="text/javascript" src="./assets/js/index.js"></script>
+    <title>Andrea Exeni</title>
+  </head>
+
+  <body>
+    <div class="position-fixed nav-bar-andy">
+      <div class="p-1 vw-100">
+        <div class="container">
+          <nav
+            class="navbar-andy d-flex justify-content-between align-items-center"
+          >
+            <div class="py-1">
+              <a href="#">
+                <img class="logo" src="./assets/img/mi logo new-03.png" atl="logo" />
+              </a>
+            </div>
+            <div class="navbar-list-links">
+              <a
+                href="#section-portfolio"
+                class="nav-item-link active-link px-3"
+                >Proyectos</a
+              >
+              <a href="#section-contact" class="nav-item-link px-3">Conóceme</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <section id="section-home" class="vh-100">
+      <div class="container h-100">
+        <div class="row h-100">
+          
+          <div
+            class="col-lg-6 col-md-6 col-12 d-flex justify-content-end flex-column mb-4"
+          >
+            <div class="home-content">
+              <h2 id="intro-text1">HOLA.</h2>
+              <h2 id="intro-text2">HEY.</h2>
+              <h2 id="intro-text3">HI.</h2>
+              <h2 id="intro-text4">QUÉ TAL?</h2>
+              <h1>Bienvenido a mi portfolio</h1>
+              <div class="pr-50 pt-3">
+                <h3>
+                  <strong>Soy Andrea Exeni,</strong> diseñadora UX/UI de
+                  profesión e ilustradora de corazón
+                </h3>
+                <h3 class="pt-3 font-weight-bold">
+                  ¿Qué problema te puedo solucionar?
+                </h3>
+                
+              </div>
+            </div>
+            <div
+              class="button-scroll mt-5 mb-2 d-flex flex-row align-items-center"
+            >
+              <div class="scroll-downs">
+                <div class="mousey">
+                  <div class="scroller"></div>
+                </div>
+              </div>
+              <div class="pl-3 pr-7 text-scroll d-flex align-items-center ">
+                <p class="mb-0"></p>
+              </div>
+            </div>
+          </div>
+          
+          <div
+          class="col-lg-6 col-md-6 col-12 d-flex align-items-center justify-content-end "
+        >
+          <img
+            class="home-image" atl="movil" src="assets/img/home-ilustración.gif"
+          />
+        
+        
+      </div>
+    </section>
+
+    <section id="section-portfolio">
+      <div class="trabajos-wrapper">
+        <div class="trabajos-plantilla colorfondo-stereo" id="branding">
+          <div
+            class="trabajos-principal"
+            data-aos="flip-right"
+            data-aos-anchor-placement="top-center"
+          >
+            <div class="trabajos-contenido-izquierda fondo-stereo"></div>
+            <div class="slides-buttons">
+              <i class="fas fa-chevron-circle-left white"></i>
+              <i class="fas fa-chevron-circle-right white"></i>
+            </div>
+            <div class="trabajos-info-izquierda sombra-stereo d-flex flex-column justify-content-between">
+              <div class="project-text-fadebox fade-in ">
+                <div class="quote-title-project trabajos-cuadro-categoria">
+                  UX · UI
+                </div>
+                <div
+                  class="title-project trabajos-cuadro-titulo titulo-especial"
+                >
+                  STEREO TV
+                </div>
+                <div class="text-project-one trabajos-cuadro-descripcion">
+                  Stero TV, de un canal de televisión, de comunicación y mucho
+                  más.
+                </div>
+                <div class="text-project-two trabajos-cuadro-descripcion">
+                  Stero TV, de un canal de televisión, de comunicación y mucho
+                  más.
+                </div>
+              </div>
+              <div>
+                  <a class="bg-pink-custom-button c-white cursor-pointer" id="see-project-button" href="#">VER MÁS</a>
+              </div>
+            </div>
+            <div class="bullets-porfolio white">
+              <div class="bullets-current">
+                <span id="current-slide-text">01</span> /
+                <span id="total-slides-count"></span>
+              </div>
+              <i
+                data-id="1"
+                class="cursor-pointer bullet fas fa-circle white"
+              ></i>
+              <i
+                data-id="2"
+                class="cursor-pointer bullet fas fa-circle white"
+              ></i>
+              <i
+                data-id="3"
+                class="cursor-pointer bullet fas fa-circle white"
+              ></i>
+              <i
+                data-id="4"
+                class="cursor-pointer bullet fas fa-circle white"
+              ></i>
+              <i
+                data-id="5"
+                class="cursor-pointer bullet fas fa-circle white"
+              ></i>
+              <i
+                data-id="6"
+                class="cursor-pointer bullet fas fa-circle white"
+              ></i>
+            </div>
+
+            <!--movilversion-->
+
+            
+          </div>
+
+          <div class="w-100 porject-mobile-card">
+            <div class="project-text-fadebox fade-in p-3 ">
+              <div class="image-porfolio-mobile mb-2" id="project1">
+              </div>
+              <div class="project-mobile-description w-100 p-3 ">
+                <div class="quote-title-project trabajos-cuadro-categoria">
+                    UX/UI
+                </div>
+                <div
+                  class="title-project trabajos-cuadro-titulo titulo-especial"
+                >
+                Movistar Comparte
+                </div>
+                <div class="text-project-one trabajos-cuadro-descripcion">
+                    Proyecto para todos los medios de difusión en streaming
+                    
+                </div>
+                <div class="text-project-two trabajos-cuadro-descripcion">
+                    Comparte tu pantalla con un invitado y mirar el contenido juntos
+                </div>
+                <a href="stereotv.html" class="trabajos-info-boton">
+                  <p>Ver proyecto</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 porject-mobile-card">
+            <div class="project-text-fadebox fade-in p-3 ">
+              <div class="image-porfolio-mobile mb-2" id="project2">
+              </div>
+              <div class="project-mobile-description w-100 p-3 ">
+                <div class="quote-title-project trabajos-cuadro-categoria">
+                  UX/UI
+                </div>
+                <div
+                  class="title-project trabajos-cuadro-titulo titulo-especial"
+                >
+                Rediseño ComicCon Madrid
+
+                </div>
+                <div class="text-project-one trabajos-cuadro-descripcion">
+                    Landing page para promocionar el evento ComicCon Madrid 2020
+                </div>
+                <div class="text-project-two trabajos-cuadro-descripcion">
+                
+                </div>
+                <a href="stereotv.html" class="trabajos-info-boton">
+                  <p>Ver proyecto</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 porject-mobile-card">
+            <div class="project-text-fadebox fade-in p-3 ">
+              <div class="image-porfolio-mobile mb-2" id="project3">
+              </div>
+              <div class="project-mobile-description w-100 p-3 ">
+                <div class="quote-title-project trabajos-cuadro-categoria">
+                  UX/UI
+                </div>
+                <div
+                  class="title-project trabajos-cuadro-titulo titulo-especial"
+                >
+                GEAº Magazine
+                </div>
+                <div class="text-project-one trabajos-cuadro-descripcion">
+                    Una revista digital dirigida a todas las personas que aprecian la cultura, el medio ambiente y la vida sana
+                </div>
+                <div class="text-project-two trabajos-cuadro-descripcion">
+               
+                </div>
+                <a href="stereotv.html" class="trabajos-info-boton">
+                  <p>Ver proyecto</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 porject-mobile-card">
+            <div class="project-text-fadebox fade-in p-3 ">
+              <div class="image-porfolio-mobile mb-2" id="project4">
+              </div>
+              <div class="project-mobile-description w-100 p-3 ">
+                <div class="quote-title-project trabajos-cuadro-categoria">
+                  UX
+                </div>
+                <div
+                  class="title-project trabajos-cuadro-titulo titulo-especial"
+                >
+                Game Camp Online
+                </div>
+                <div class="text-project-one trabajos-cuadro-descripcion">
+                    Campamento bilingüe durante las vacaciones de verano, 
+                    con una temática gaming para vivir una experiencia entretenida y educativa
+                </div>
+                <div class="text-project-two trabajos-cuadro-descripcion">
+                  
+                </div>
+                <a href="stereotv.html" class="trabajos-info-boton">
+                  <p>Ver proyecto</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 porject-mobile-card">
+            <div class="project-text-fadebox fade-in p-3 ">
+              <div class="image-porfolio-mobile mb-2" id="project5">
+              </div>
+              <div class="project-mobile-description w-100 p-3 ">
+                <div class="quote-title-project trabajos-cuadro-categoria">
+                  UX/UI
+                </div>
+                <div
+                  class="title-project trabajos-cuadro-titulo titulo-especial"
+                >
+                Mi Portfolio, mi imágen
+                </div>
+                <div class="text-project-one trabajos-cuadro-descripcion">
+                    Portfolio web, pensando desde la marca hasta el código.
+                </div>
+                <div class="text-project-two trabajos-cuadro-descripcion">
+   
+                </div>
+                <a href="stereotv.html" class="trabajos-info-boton">
+                  <p>Ver proyecto</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 porject-mobile-card">
+            <div class="project-text-fadebox fade-in p-3 ">
+              <div class="image-porfolio-mobile mb-2" id="project6">
+              </div>
+              <div class="project-mobile-description w-100 p-3 ">
+                <div class="quote-title-project trabajos-cuadro-categoria">
+                  UX/UI
+                </div>
+                <div
+                  class="title-project trabajos-cuadro-titulo titulo-especial"
+                >
+                  Starty App
+                </div>
+                <div class="text-project-one trabajos-cuadro-descripcion">
+                    Proyecto final del bootcamp de Ironhcak
+                  
+                </div>
+                <div class="text-project-two trabajos-cuadro-descripcion">
+                    Seleccionado para ir al HackShow del 2019
+                </div>
+                <a href="stereotv.html" class="trabajos-info-boton">
+                  <p>Ver proyecto</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-contact" class="pt-5 pb-5">
+      <div class="container h-100 mt-5">
+        <div class="row h-100 w-100 d-flex align-items-start">
+          <div
+            class="col-lg-6 col-md-6 col-12 d-flex align-items-center justify-content-right "
+          >
+            <img
+              class="contact-image"
+              atl="movil"
+              src="assets/img/retrado_web_2.gif"
+            />
+          </div>
+          <div
+            class="col-lg-6 col-md-6 col-12 d-flex justify-content-start flex-column mb-4 mr6"
+          >
+            <div class="contact-content">
+              <h2 class="mb-4">Es un placer!</h2>
+              <p>
+                Cómo ya os he dicho soy <strong>Andrea Exeni</strong>, bueno...<br>
+                En mi DNI pone Andrea Gonzales-Rubio Exeni, demasiado largo
+                ¿no?.
+              </p>
+              <p>
+                Estudié Diseño Gráfico, Ilustración, Técnicas aplicadas al
+                Diseño y Diseño UX/UI. Desde el 2013 he trabajado como
+                diseñadora gráfica y Web.
+              </p>
+              <p>
+                Pero hace un tiempo me dedico al
+                <strong>diseño de producto digital</strong>, encontrando
+                soluciones, y conectando la idea al producto.
+              </p>
+              <img class="technoligies" src="assets/img/programas-10.png" />
+              <div class="sobre-botones mt-5">
+                <p class="font-weight-refular paragraph-contact mb-0">
+                Esto también lo he hecho yo <strong>:)</strong>
+                </p>
+              </div>
+              <div id="buttons-div"
+                class="d-flex w-100 flex-row align-items-baseline justify-content-start "
+              >
+                <a href="./trabajos-diseno.html" class="linear-custom-button mt-2 decoration-none">
+                  DISEÑO&nbsp;GRÁFICO
+                </a>
+                <a  href="./trabajos.html" class="linear-custom-button mt-3 ml-4 decoration-none">ILUSTRACIONES</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container footer-flex d-flex align-items-center">
+        <div class="footer-content">
+          <i href="https://www.linkedin.com/in/andrea-rubio-exeni/" class="icon-logo-linkedin" ></i>
+          <i class="icon-logo-mail"></i>
+          <i class="icon-logo-medium"></i>
+          <i class="icon-logo-phone"></i>
+          <i class="icon-logo-cv"></i>
+        </div>
+        <div>
+          <p class="mb-0">This website was created by my</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
