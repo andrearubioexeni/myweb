@@ -36,16 +36,16 @@ var projects = [
     title: "Starty App",
     quoteTitle: "UX · UI",
     paragraphOne: "Aplicación móvil para organizar y administrar fiestas en casa ",
-    paragraphTwo: "Proyecto final del bootcamp de Ironhcak, seleccionado para ir al HackShow del 2019",
+    paragraphTwo: "Proyecto final del bootcamp de Ironhack, ganador del HackShow del 2019",
     buttonRef: "./detailproject-starty.html",
     currentSlide: "01",
-    imgUrl: "./assets/img/works/portada-starty.jpeg"
+    imgUrl: "./assets/img/portada-starty.jpg"
   },
   {
     id: "Proyect 2",
-    title: "Rediseño ComicCon Madrid",
+    title: "Rediseño ComicCon",
     quoteTitle: "UX · UI",
-    paragraphOne: "* Microsite para promocionar el evento ComicCon Madrid 2020",
+    paragraphOne: "Microsite para promocionar el evento ComicCon Madrid 2020",
     paragraphTwo: "",
     buttonRef: "./detailproject-comiccon.html",
     currentSlide: "02",
@@ -58,24 +58,24 @@ var projects = [
     paragraphOne: "Una revista digital dirigida a todas las personas que aprecian la cultura, el medio ambiente y la vida sana",
     buttonRef: "./detailproject-gea.html",
     currentSlide: "03",
-    imgUrl: "./assets/img/portada-gea.png"
+    imgUrl: "./assets/img/portada-gea.jpg"
   },
   {
     id: "Proyect 4",
-    title: "Game Camp Online",
+    title: "Game Camp",
     quoteTitle: "UX",
-    paragraphOne: "Campamento bilingüe durante las vacaciones de verano, con una temática gaming para vivir una experiencia entretenida y educativa",
+    paragraphOne: "Campamento bilingüe y online, durante las vacaciones de verano, con una temática gaming para vivir una experiencia entretenida y educativa",
     paragraphTwo: "",
     buttonRef: "./detailproject-gamecamp.html",
     currentSlide: "04",
-    imgUrl: "./assets/img/works/portada-gamecamp.jpeg"
+    imgUrl: "./assets/img/portada-gamecamp.jpg"
   },
   {
     id: "Proyect 5",
     title: "Movistar Comparte",
     quoteTitle: "UX · UI",
-    paragraphOne: "Una nueva función para un medio de difusión en streaming",
-    paragraphTwo: "Comparte tu pantalla con un invitado y mirar el contenido juntos",
+    paragraphOne: "Una nueva funcionalidad para compartir la pantalla con un invitado y mirar el contenido juntos",
+    paragraphTwo: "",
     buttonRef: "./detailproject-comparte.html",
     currentSlide: "05",
     imgUrl: "./assets/img/portada-comparte.jpg"
