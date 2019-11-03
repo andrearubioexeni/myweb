@@ -30,23 +30,24 @@ $( document ).ready(function() {
 /* Slider Proyectos */
 
 var projects = [
+
   {
     id: "Proyect 1",
-    title: "Movistar Comparte",
+    title: "Starty App",
     quoteTitle: "UX · UI",
-    paragraphOne: "Proyecto para todos los medios de difusión en streaming",
-    paragraphTwo: "Comparte tu pantalla con un invitado y mirar el contenido juntos",
-    buttonRef: "VER PROYECTO",
+    paragraphOne: "Aplicación móvil para organizar y administrar fiestas en casa ",
+    paragraphTwo: "Proyecto final del bootcamp de Ironhcak, seleccionado para ir al HackShow del 2019",
+    buttonRef: "./detailproject-starty.html",
     currentSlide: "01",
-    imgUrl: "./assets/img/portada-comparte.jpg"
+    imgUrl: "./assets/img/works/portada-starty.jpeg"
   },
   {
     id: "Proyect 2",
     title: "Rediseño ComicCon Madrid",
     quoteTitle: "UX · UI",
-    paragraphOne: "Landing page para promocionar el evento ComicCon Madrid 2020",
+    paragraphOne: "* Microsite para promocionar el evento ComicCon Madrid 2020",
     paragraphTwo: "",
-    buttonRef: "VER PROYECTO",
+    buttonRef: "./detailproject-comiccon.html",
     currentSlide: "02",
     imgUrl: "./assets/img/portada-comiccon.png"
   },
@@ -55,7 +56,7 @@ var projects = [
     title: "GEAº Magazine",
     quoteTitle: "UX · UI",
     paragraphOne: "Una revista digital dirigida a todas las personas que aprecian la cultura, el medio ambiente y la vida sana",
-    buttonRef: "VER PROYECTO",
+    buttonRef: "./detailproject-gea.html",
     currentSlide: "03",
     imgUrl: "./assets/img/portada-gea.png"
   },
@@ -65,28 +66,19 @@ var projects = [
     quoteTitle: "UX",
     paragraphOne: "Campamento bilingüe durante las vacaciones de verano, con una temática gaming para vivir una experiencia entretenida y educativa",
     paragraphTwo: "",
-    buttonRef: "VER PROYECTO",
+    buttonRef: "./detailproject-gamecamp.html",
     currentSlide: "04",
     imgUrl: "./assets/img/works/portada-gamecamp.jpeg"
   },
   {
     id: "Proyect 5",
-    title: "Mi Portfolio, mi imágen",
-    quoteTitle: "UI · CODE",
-    paragraphOne: "Portfolio web, pensando desde la marca hasta el código. ",
-    buttonRef: "VER PROYECTO",
-    currentSlide: "05",
-    imgUrl: "./assets/img/works/portada-gamecamp.jpeg"
-  },
-  {
-    id: "Proyect 6",
-    title: "Starty App",
+    title: "Movistar Comparte",
     quoteTitle: "UX · UI",
-    paragraphOne: "Proyecto final del bootcamp de Ironhcak",
-    paragraphTwo: "Seleccionado para ir al HackShow del 2019",
-    buttonRef: "VER PROYECTO",
-    currentSlide: "06",
-    imgUrl: "./assets/img/works/portada-starty.jpeg"
+    paragraphOne: "Una nueva función para un medio de difusión en streaming",
+    paragraphTwo: "Comparte tu pantalla con un invitado y mirar el contenido juntos",
+    buttonRef: "./detailproject-comparte.html",
+    currentSlide: "05",
+    imgUrl: "./assets/img/portada-comparte.jpg"
   }
 ]
 

@@ -26,6 +26,10 @@
   background: url('../img/ilustrations/9.jpg');
 }
 
+#blockColorblindContent {
+  display: none;
+}
+
 #image-modal {
   max-height: 85vh;
   max-width: 90vw;
@@ -151,6 +155,22 @@ box-shadow: 10px 10px 0px 0px rgba(127,127,127,1);
   max-width: 500px;
 }
 
+.text-detail-first p {
+  font-size: 14px;
+} 
+.text-detail-first li {
+  font-size: 14px;
+  color: rgb(35, 28, 59);
+} 
+
+.text-detail-second p {
+  font-size: 14px;
+} 
+.text-detail-second li {
+  font-size: 14px;
+  color: rgb(35, 28, 59);
+} 
+
 .text-detail-second{
   max-width: 400px;
 }
@@ -223,7 +243,36 @@ box-shadow: 10px 10px 0px 0px rgba(127,127,127,1);
 
 
 
-
+#maroto-image:hover {
+  background: url('../img/portada-comparte.png');
+  background-size: cover;
+  background-position: center; 
+}
+#maroto-image:hover {
+  background: url('../img/portada-comparte.png');
+  background-size: cover;
+  background-position: center; 
+}
+#maroto-image:hover {
+  background: url('../img/portada-comparte.png');
+  background-size: cover;
+  background-position: center; 
+}
+#maroto-image:hover {
+  background: url('../img/portada-comparte.png');
+  background-size: cover;
+  background-position: center; 
+}
+#maroto-image:hover {
+  background: url('../img/portada-comparte.png');
+  background-size: cover;
+  background-position: center; 
+}
+#maroto-image:hover {
+  background: url('../img/portada-comparte.png');
+  background-size: cover;
+  background-position: center; 
+}
 
 
 .trabajos-info-boton img {
@@ -727,7 +776,50 @@ video {
 }
 
 #header-gea{
-  background: url("../img/works/portada-gea.jpeg");
+  background: url("../img/works/portada-gea.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+#header-comic{
+  background: url("../img/works/portada-comiccon.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+#header-comparte{
+  background: url("../img/works/portada-movistar.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+#header-starty{
+  background: url("../img/works/portada-starty.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+#header-miportfolio{
+  background: url("../img/works/portada-miportfolio.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+#header-gamecamp{
+  background: url("../img/works/portada-gamecamp.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -976,7 +1068,7 @@ video {
 @media (max-width: 950px) {
 
   #project1{
-    background: url("../img/portada-comparte.jpg")
+    background: url("../img/portada-starty")
   }
 
   #project2{
@@ -994,14 +1086,12 @@ video {
 
 
   #project5{
-    background: url("../img/portada-miportfolio.png")
+    background: url("../img/portada-comparte.png")
   }
 
-  #project6{
-    background: url("../img/portada-starty.png")
-  }
 
-  #project1, #project2, #project3, #project4, #project5, #project6{
+
+  #project1, #project2, #project3, #project4, #project5, {
     background-size: cover;
     background-position: center;
   }
